@@ -1,0 +1,69 @@
+#facilities{
+    width: 90%;
+    background-color: rgba(60, 94, 62, 0.82);
+    position: relative;
+    left: 3%;
+    height: 1700px;
+    top:1%;
+    padding: 30px;
+    border: 2px solid black;
+}
+.content{
+    height: 1900px;
+}
+.facility{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    background-color: rgba(57, 44, 21, 0.46);
+    /*height:300px;*/
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+.facilityImg{
+    display: inline-block;
+    padding:30px;
+    width: 50%;
+}
+.facilityImgR{
+    display: inline-block;
+    padding:30px;
+    width: 30%;
+    position: relative;
+    left: 243px;
+}
+.fImg{
+    height:300px;
+    display: inline-block;
+    border: 1px solid black;
+
+}
+.facilityText{
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+}
+.facilityTextR{
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+    position: relative;
+    left: 70px;
+}
+.facilityTheme{
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+    left: 140px;
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+}
+.facilityThemeR{
+    text-align: right;
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+    right:200px;
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+}
