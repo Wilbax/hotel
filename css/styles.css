@@ -11,7 +11,7 @@ body{
 }
 .logo img{
     height: 120px;
-    padding: 10px 0 0px 0;
+    padding: 10px 0 0 0;
 }
 .name{
     display: inline-block;
@@ -22,11 +22,11 @@ body{
     left: 200px;
     color: #FCF8EC;
 }
-.navbar{
+.navbarx{
 
-    padding:0px 0 10px 200px;
+    padding:0 0 10px 200px;
 }
-.nav-item{
+.navx-itemx{
     display: inline-block;
     width: 300px;
     font-size: 20px;
@@ -36,45 +36,73 @@ body{
     text-align: center;
     height:40px;
 }
-.navbar .nav-item a{
+.navbarx .navx-itemx a{
     text-decoration: none !important;
     color: inherit;
     position: relative;
     top:10px;
 }
+
+
 /*website content*/
 .content{
-    height: 800px;
+
+    height: 1500px;
+    background-color: #edf7fa;
+}
+.caro{
+    background-color: #DEFCF9;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    z-index: 1;
+    height: 700px;
+}
+#b-carousal{
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    z-index: 1;
+
+}
+#welcome{
+    position: relative;
+    z-index: 2;
+    left: 30%;
+    top: 40%;
+    font-size: 70px;
+    font-family: 'Kalam', cursive;
+    color:#ffffff;
+    display: inline-block;
 }
 
 
 /*foot*/
 .foot{
     background-color: rgba(60, 94, 62, 0.82);
-    height: 200px;
+    height: 240px;
     padding: 30px 100px 0px 100px;
 }
-#footer-logo img{
+#footer-logox img{
     height:150px;
     position: relative;
-    top: 20px;
+    bottom: 80px;
     padding-right: 50px;
 }
-.footer-item{
+.footer-itemx{
     display: inline-block;
     padding-left: 30px;
 }
-.footer-item ul li{
+.footer-itemx ul li{
     list-style-type: none !important;
     padding:5px 0 5px 0;
     font-family: 'Roboto', sans-serif;
 
 }
-.footer-item ul li a{
+.footer-itemx ul li a{
     text-decoration: none !important;
     color: #2C3333;
 }
-.footer-item ul{
+.footer-itemx ul{
     padding-inline-start: 10px;
 }
 .footerDivName{
@@ -83,4 +111,13 @@ body{
 }
 #branches{
     padding-left:200px;
+}
+#about{
+    padding-left: 200px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing:content-box !important;
 }
