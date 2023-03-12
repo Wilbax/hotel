@@ -47,8 +47,8 @@ body{
 /*website content*/
 .content{
 
-    height: 1500px;
-    background-color: #edf7fa;
+    height: 1600px;
+    background-color: #DEFCF9;
 }
 .caro{
     background-color: #DEFCF9;
@@ -73,6 +73,52 @@ body{
     font-family: 'Kalam', cursive;
     color:#ffffff;
     display: inline-block;
+}
+.summary{
+    width: 90%;
+    position: relative;
+    left: 5%;
+    text-align: center;
+}
+#visionTheme{
+    font-size: 25px;
+}
+#visionText{
+
+}
+#vision{
+    padding: 40px;
+    border: 2px solid;
+    margin-bottom: 30px;
+    background-color: rgba(60, 94, 62, 0.82);
+}
+
+#missionTheme{
+    font-size: 25px;
+}
+#missionText{
+
+}
+#mission{
+    padding: 40px;
+    border: 2px solid;
+    background-color: rgba(60, 94, 62, 0.82);
+    margin-bottom: 30px;
+}
+
+#valuesTheme{
+    font-size: 25px;
+}
+#valuesText{
+    text-align: left;
+    position: relative;
+    left:10%;
+}
+#values{
+    padding: 40px;
+    border: 2px solid;
+    background-color: rgba(60, 94, 62, 0.82);
+    margin-bottom: 30px;
 }
 
 
